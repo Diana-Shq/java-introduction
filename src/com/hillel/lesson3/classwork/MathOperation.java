@@ -1,4 +1,4 @@
-package com.hillel.lesson3;
+package com.hillel.lesson3.classwork;
 
 public class MathOperation {
 
