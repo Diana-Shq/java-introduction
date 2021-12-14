@@ -13,10 +13,10 @@ public class Snowman {
         float a = 4/3f;
 
 
-        double pi = java.lang.Math.PI;
-        double m1 = (p * a * pi * (java.lang.Math.pow(r1, 3)));
-        double m2 = (p * a * pi * (java.lang.Math.pow(r2, 3)));
-        double m3 = (p * a * pi * (java.lang.Math.pow(r3, 3)));
+        double pi = Math.PI;
+        double m1 = (p * a * pi * (Math.pow(r1, 3)));
+        double m2 = (p * a * pi * (Math.pow(r2, 3)));
+        double m3 = (p * a * pi * (Math.pow(r3, 3)));
 
         System.out.println("m = " + (m1 + m2 + m3));
 

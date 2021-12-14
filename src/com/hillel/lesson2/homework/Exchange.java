@@ -9,10 +9,11 @@ public class Exchange {
 
         System.out.println("a = " + a);
         System.out.println("b = " + b);
-        System.out.println("a = " + b);
-        System.out.println("b = " + a);
 
+        a = a + b - (b = a);
 
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
 
     }
 }
