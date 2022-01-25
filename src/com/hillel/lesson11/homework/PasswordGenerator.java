@@ -3,7 +3,7 @@ package com.hillel.lesson11.homework;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.sql.SQLOutput;
+
 
 public class PasswordGenerator {
     static final BufferedReader READER = new BufferedReader(new InputStreamReader(System.in));
